@@ -159,7 +159,7 @@ public class BTree<E extends Comparable<? super E>> implements Tree<E> {
 		private Node(int k, E[] elems, Node<E>[] childs, int l, int r,
 				Node<E> parent) {
 			// Construct a B-tree node of arity k, with its elements taken from
-			// the subarray e 1 ems [ 1... r–1 ] and its children from the
+			// the subarray e 1 ems [ 1... r?1 ] and its children from the
 			// subarray childs[l...r].
 			this.e = (E[]) new Comparable[k];
 			this.childs = new BTree.Node[k + 1];

@@ -12,7 +12,7 @@ import java.util.NoSuchElementException;
 /**
  * Each Arrays tack object is a unbounded stack whose elements are objects.This
  * stack is represented as follows: its depth is held in depth, and its elements
- * occupy the subarray elems[0...depth–l].
+ * occupy the subarray elems[0...depth?l].
  * 
  * @author ANKIT DAIM
  * 

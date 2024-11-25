@@ -3,7 +3,7 @@ package arrays;
 public class ArraySelectionSort {
 
 	// To sort a[left...right]:
-	// 1. For l = left, ..., right–1, repeat:
+	// 1. For l = left, ..., right?1, repeat:
 	// 1.1. Set p such that a[p] is the least of a[l...right].
 	// 1.2. If p* l, swap a[p] and a[l].
 	// 2. Terminate.

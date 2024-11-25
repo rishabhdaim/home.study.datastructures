@@ -27,10 +27,10 @@ public class EPockDate implements Comparable<EPockDate> {
 		if (m < 0 || m > 12 || d < 0 || d > length(m, y))
 			throw new IllegalArgumentException("Invalid date : ");
 		int e = d - 1;
-		// Add lengths of months 1 through m–1 in year y,..
+		// Add lengths of months 1 through mï¿½1 in year y,..
 		for (int k = 1; k < m; k++)
 			e += length(k, y);
-		// Add lengths of years 2000 through y–1 . . ,
+		// Add lengths of years 2000 through yï¿½1 . . ,
 		e += 365 * (y - 2000);
 		// Adjust for leap years . . .
 		if (y > 2000)

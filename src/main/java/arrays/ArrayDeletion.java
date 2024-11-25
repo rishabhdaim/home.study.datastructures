@@ -8,7 +8,7 @@ public class ArrayDeletion {
 	public static void main(String[] args) {
 		// To delete the value at position del of a[left...right] (where left <
 		// del < right):
-		// 1. Copy a[del+1... right] into a[del... right–1].
+		// 1. Copy a[del+1... right] into a[del... right?1].
 		// 2. Make a[right] unoccupied.
 		// 3. Terminate.
 

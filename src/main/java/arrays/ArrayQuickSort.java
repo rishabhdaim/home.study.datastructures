@@ -11,7 +11,7 @@ public class ArrayQuickSort {
 	// 1.3. Sort a[p+1...right].
 	// 2. Terminate.
 
-	// To partition a[left. . .right] such that a[left. . .p–1] are all less
+	// To partition a[left. . .right] such that a[left. . .p?1] are all less
 	// than or equal to a[p],
 	// and a[p+1. . .right] are all greater than or equal to a[p]:
 	// 1. Let pivot be the value of a[left], and set p = left.

@@ -5,7 +5,7 @@ import java.util.NoSuchElementException;
 
 /**
  * 
- * elems [front . . .rear — I],
+ * elems [front . . .rear ? I],
  * 
  * @author ANKIT DAIM
  * 

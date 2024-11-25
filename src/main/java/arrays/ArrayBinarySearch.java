@@ -16,7 +16,7 @@ public class ArrayBinarySearch {
 		// 2. While l < r, repeat:
 		// 2.1. Let m be an integer about midway between l and r.
 		// 2.2. If target is equal to a[m], terminate with answer m.
-		// 2.3. If target is less than a[m], set r = m – 1.
+		// 2.3. If target is less than a[m], set r = m ? 1.
 		// 2.4. If target is greater than a[m], set l = m + 1.
 		// 3. Terminate with answer none.
 
